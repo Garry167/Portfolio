@@ -1,0 +1,27 @@
+/* Wave animation */
+/* Home.css */
+.wave-container {
+    position: relative;
+    overflow: hidden;
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    animation: waveAnimation 10s linear infinite;
+  }
+  
+  @keyframes waveAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  
