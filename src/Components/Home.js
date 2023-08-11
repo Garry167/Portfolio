@@ -16,6 +16,9 @@ export default function Home() {
             <button onClick={()=> console.log('connect')}>Let's Connect <i className="bi bi-arrow-left"></i></button>
             {/* <button><i className="bi bi-arrow-left"></i></button> */}
           </Col>
+          <Col xs={12} md={6} xl={5}>
+            <img src={headerImg} alt="Header img" />
+          </Col>
         </Row>
       </Container>
       
